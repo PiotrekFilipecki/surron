@@ -1,6 +1,6 @@
-import SelectCar from "../images/plan/icon1.png";
-import Contact from "../images/plan/icon2.png";
-import Drive from "../images/plan/icon3.png";
+import SelectCar from "../images/plan/suricon1.png";
+import Contact from "../images/plan/suricon2.png";
+import Drive from "../images/plan/suricon3.png";
 
 function PlanTrip() {
   return (
@@ -9,23 +9,24 @@ function PlanTrip() {
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">
-              <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              {/* <h3>Plan your trip now</h3> */}
+              <h2>Explore the Algarve in a sustainable way
+</h2>
             </div>
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
                 <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                <h3>Powered by sun</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
-                  We have the perfect car to meet your needs
+                  We offer a big range of surrons for all your driving needs.
+                  We have the perfect surron to meet your needs
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
                 <img src={Contact} alt="icon_img" />
-                <h3>Contact Operator</h3>
+                <h3>Driver’s licence required</h3>
                 <p>
                   Our knowledgeable and friendly operators are always ready to
                   help with any questions or concerns
@@ -34,10 +35,18 @@ function PlanTrip() {
 
               <div className="plan-container__boxes__box">
                 <img src={Drive} alt="icon_img" />
-                <h3>Let's Drive</h3>
+                <h3>Safety gear included</h3>
                 <p>
                   Whether you're hitting the open road, we've got you covered
-                  with our wide range of cars
+                  with our wide range of surrons
+                </p>
+              </div>
+              <div className="plan-container__boxes__box">
+                <img src={Drive} alt="icon_img" />
+                <h3>No gearbox</h3>
+                <p>
+                  Whether you're hitting the open road, we've got you covered
+                  with our wide range of surrons
                 </p>
               </div>
             </div>

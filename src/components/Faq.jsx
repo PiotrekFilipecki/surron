@@ -24,7 +24,7 @@ function Faq() {
               <h5>FAQ</h5>
               <h2>Frequently Asked Questions</h2>
               <p>
-                Frequently Asked Questions About the Car Rental Booking Process
+                Frequently Asked Questions About Surron Rental Booking Process
                 on Our Website: Answers to Common Concerns and Inquiries.
               </p>
             </div>
@@ -36,7 +36,7 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__question  ${getClassQuestion("q1")}`}
                 >
-                  <p>1. What is special about comparing rental car deals?</p>
+                  <p>1. What is special about comparing rental surron deals?</p>
                   <i className="fa-solid fa-angle-down"></i>
                 </div>
                 <div
@@ -44,11 +44,11 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__answer ${getClassAnswer("q1")}`}
                 >
-                  Comparing rental car deals is important as it helps find the
+                  Comparing rental surron deals is important as it helps find the
                   best deal that fits your budget and requirements, ensuring you
                   get the most value for your money. By comparing various
                   options, you can find deals that offer lower prices,
-                  additional services, or better car models. You can find car
+                  additional services, or better car models. You can find surron
                   rental deals by researching online and comparing prices from
                   different rental companies.
                 </div>
@@ -59,7 +59,7 @@ function Faq() {
                   onClick={() => openQ("q2")}
                   className={`faq-box__question ${getClassQuestion("q2")}`}
                 >
-                  <p>2. How do I find the car rental deals?</p>
+                  <p>2. How do I find surron rental deals?</p>
                   <i className="fa-solid fa-angle-down"></i>
                 </div>
                 <div
@@ -67,12 +67,12 @@ function Faq() {
                   onClick={() => openQ("q2")}
                   className={`faq-box__answer ${getClassAnswer("q2")}`}
                 >
-                  You can find car rental deals by researching online and
+                  You can find surron rental deals by researching online and
                   comparing prices from different rental companies. Websites
                   such as Expedia, Kayak, and Travelocity allow you to compare
                   prices and view available rental options. It is also
                   recommended to sign up for email newsletters and follow rental
-                  car companies on social media to be informed of any special
+                  surron companies on social media to be informed of any special
                   deals or promotions.
                 </div>
               </div>

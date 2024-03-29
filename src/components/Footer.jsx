@@ -6,11 +6,11 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                 Rental
               </li>
               <li>
                 We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+                have the perfect surron to meet your needs.
               </li>
               <li>
                 <a href="tel:123456789">
@@ -24,26 +24,17 @@ function Footer() {
                 carrental@gmail.com"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; calebjephuneh@gmail.com
+          
                 </a>
               </li>
 
-              <li>
-                <a
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://jephunneh.com/"
-                >
-                  Design by cjephuneh
-                </a>
-              </li>
+    
             </ul>
 
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">Joyride</a>
               </li>
               <li>
                 <a href="#home">Careers</a>

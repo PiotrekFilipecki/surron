@@ -61,15 +61,30 @@ function BookCar() {
   };
 
   // open modal when all inputs are fulfilled
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   const errorMsg = document.querySelector(".error-message");
+  //   if (
+  //     pickUp === "" ||
+  //     dropOff === "" ||
+  //     pickTime === "" ||
+  //     dropTime === "" ||
+  //     carType === ""
+  //   ) {
+  //     errorMsg.style.display = "flex";
+  //   } else {
+  //     setModal(!modal);
+  //     const modalDiv = document.querySelector(".booking-modal");
+  //     modalDiv.scroll(0, 0);
+  //     errorMsg.style.display = "none";
+  //   }
+  // };
   const openModal = (e) => {
     e.preventDefault();
     const errorMsg = document.querySelector(".error-message");
     if (
       pickUp === "" ||
-      dropOff === "" ||
-      pickTime === "" ||
-      dropTime === "" ||
-      carType === ""
+      pickTime === ""
     ) {
       errorMsg.style.display = "flex";
     } else {
@@ -125,6 +140,9 @@ function BookCar() {
     case "Audi A1 S-Line":
       imgUrl = CarAudi;
       break;
+      case "Ultra Bee":
+        imgUrl = "";
+        break;
     case "VW Golf 6":
       imgUrl = CarGolf;
       break;
@@ -162,7 +180,7 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Book surron</h2>
 
               <p className="error-message">
                 All fields required! <i className="fa-solid fa-xmark"></i>
@@ -174,40 +192,40 @@ function BookCar() {
               </p>
 
               <form className="box-form">
-                <div className="box-form__car-type">
+              <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car
-                    Type <b>*</b>
-                  </label>
-                  <select value={carType} onChange={handleCar}>
-                    <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
-                    <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="BMW 320 ModernLine">
-                      BMW 320 ModernLine
-                    </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
-                  </select>
-                </div>
-
-                <div className="box-form__car-type">
-                  <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Trip{" "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
+                    <option>Hidden Hills</option>
+                    <option>Golden Cliffs</option>
+                    {/* <option>Nis</option>
                     <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Subotica</option> */}
+                  </select>
+                </div>
+                <div className="box-form__car-type">
+                  <label>
+                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Surron<b>*</b>
+                  </label>
+                  <select value={carType} onChange={handleCar}>
+                    <option>Select your surron</option>
+                    <option value="Ultra Bee">Ultra Bee</option>
+                    <option value="VW Golf 6">Light Bee</option>
+                    {/* <option value="Toyota Camry">Toyota Camry</option>
+                    <option value="BMW 320 ModernLine">
+                      BMW 320 ModernLine
+                    </option>
+                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
+                    <option value="VW Passat CC">VW Passat CC</option> */}
                   </select>
                 </div>
 
-                <div className="box-form__car-type">
+
+
+                {/* <div className="box-form__car-type">
                   <label>
                     <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of{" "}
                     <b>*</b>
@@ -220,12 +238,12 @@ function BookCar() {
                     <option>Kragujevac</option>
                     <option>Subotica</option>
                   </select>
-                </div>
+                </div> */}
 
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Pick-up <b>*</b>
+                    Date<b>*</b>
                   </label>
                   <input
                     id="picktime"
@@ -234,7 +252,7 @@ function BookCar() {
                     type="date"
                   ></input>
                 </div>
-
+{/* 
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
@@ -246,10 +264,10 @@ function BookCar() {
                     onChange={handleDropTime}
                     type="date"
                   ></input>
-                </div>
+                </div> */}
 
                 <button onClick={openModal} type="submit">
-                  Search
+                  Let's ride!
                 </button>
               </form>
             </div>
@@ -293,7 +311,7 @@ function BookCar() {
               </span>
             </div>
 
-            <div className="booking-modal__car-info__dates">
+            {/* <div className="booking-modal__car-info__dates">
               <span>
                 <i className="fa-solid fa-location-dot"></i>
                 <div>
@@ -304,7 +322,7 @@ function BookCar() {
                   </p>
                 </div>
               </span>
-            </div>
+            </div> */}
 
             <div className="booking-modal__car-info__dates">
               <span>
@@ -316,7 +334,7 @@ function BookCar() {
               </span>
             </div>
 
-            <div className="booking-modal__car-info__dates">
+            {/* <div className="booking-modal__car-info__dates">
               <span>
                 <i className="fa-solid fa-calendar-days"></i>
                 <div>
@@ -324,11 +342,11 @@ function BookCar() {
                   <p>{dropOff}</p>
                 </div>
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="booking-modal__car-info__model">
             <h5>
-              <span>Car -</span> {carType}
+              <span>Surron -</span> {carType}
             </h5>
             {imgUrl && <img src={imgUrl} alt="car_img" />}
           </div>
@@ -379,13 +397,13 @@ function BookCar() {
 
               <span>
                 <label>
-                  Age <b>*</b>
+                  Crew <b>*</b>
                 </label>
                 <input
                   value={age}
                   onChange={handleAge}
                   type="number"
-                  placeholder="18"
+                  placeholder="1"
                 ></input>
                 <p className="error-modal ">This field is required.</p>
               </span>

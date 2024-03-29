@@ -23,8 +23,8 @@ function Contact() {
                 carrental@carmail.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Belgrade,
-                Serbia
+                <i className="fa-solid fa-location-dot"></i>&nbsp; Algavre,
+                Portugal
               </a>
             </div>
             <div className="contact-div__form">
@@ -56,7 +56,7 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Book a surron by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
                 <h3>(123) 456-7869</h3>

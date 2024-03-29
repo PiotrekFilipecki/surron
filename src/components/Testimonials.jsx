@@ -24,7 +24,7 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
+                  "We rented the surrons from this website and had an amazing
                   experience! The booking was easy and the rental rates were
                   very affordable. "
                 </p>
@@ -44,8 +44,8 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  "Surrons were in great condition and made our trip even better.
+                  Highly recommend for this surron rental website!"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">

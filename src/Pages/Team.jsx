@@ -12,9 +12,9 @@ function Team() {
     { img: Person1, name: "Luke Miller", job: "Salesman" },
     { img: Person2, name: "Michael Diaz", job: "Business Owner" },
     { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
+    { img: Person4, name: "Lauren Rivera", job: "Social Media Manager" },
     { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person6, name: "Caitlyn Hunt", job: "Sales Manager" },
   ];
   return (
     <>
@@ -39,7 +39,7 @@ function Team() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Book a surron by getting in touch with us</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
                 <h3>(123) 456-7869</h3>

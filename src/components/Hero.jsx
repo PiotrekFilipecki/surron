@@ -34,15 +34,15 @@ function Hero() {
     <>
       <section id="home" className="hero-section">
         <div className="container">
-          <img className="bg-shape" src={BgShape} alt="bg-shape" />
+          {/* <img className="bg-shape" src={BgShape} alt="bg-shape" /> */}
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Nothing fun to do today?</h4>
               <h1>
-                Save <span>big</span> with our car rental
+                Let's <span>joyride</span> with us!
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
+                Rent surron of your dreams. Unbeatable prices, unlimited miles,
                 flexible pick-up options and much more.
               </p>
               <div className="hero-content__text__btns">
@@ -60,12 +60,25 @@ function Hero() {
             </div>
 
             {/* img */}
-            <img
+            {/* <img
               src={HeroCar}
               alt="car-img"
               className="hero-content__car-img"
-            />
+            /> */}
           </div>
+          <video
+      autoPlay
+      playsInline
+      loop
+      muted
+      className="absolute z-10 w-full h-full object-cover"
+    >
+      <source
+        src="https://lxxritrdxhhwdqdiutme.supabase.co/storage/v1/object/sign/assets/pexels-musko-io-8518105%20(1440p).mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJhc3NldHMvcGV4ZWxzLW11c2tvLWlvLTg1MTgxMDUgKDE0NDBwKS5tcDQiLCJpYXQiOjE3MTA0NzUwNTEsImV4cCI6MTc0MjAxMTA1MX0.J8AGFrQ92urvVOXH-5pB86-zy7bEwYyghILOBTNUsQI&t=2024-03-15T03%3A57%3A31.797Z"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
         </div>
 
         {/* page up */}

@@ -1,4 +1,4 @@
-import MainImg from "../images/chooseUs/main.png";
+import MainImg from "../images/chooseUs/main.jpg";
 import Box1 from "../images/chooseUs/icon1.png";
 import Box2 from "../images/chooseUs/icon2.png";
 import Box3 from "../images/chooseUs/icon3.png";
@@ -19,12 +19,7 @@ function ChooseUs() {
                 <h4>Why Choose Us</h4>
                 <h2>Best valued deals you will ever find</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                If your idea of a perfect day doesn't involve endless sunbathing or city hustle, we've got an exciting alternative. Explore the stunning Algarve on a Sur Ron, a ride that is as powerful as a dirt bike but also easier to use, safer, and good for the planet. No complicated gears, no loud noise – just you, the beautiful views, and a joy ride.
                 </p>
                 <a href="#home">
                   Find Details &nbsp;
@@ -35,10 +30,9 @@ function ChooseUs() {
                 <div className="text-container__right__box">
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
+                    <h4>Easy Rider</h4>
                     <p>
-                      Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
+                    Whether you're eager to discover a new passion or seeking excitement as an experienced rider, Sur Ron offers enjoyable experiences at all levels. With the assistance of our skilled guide, you'll operate the bike with confidence, ensuring a fun and safe adventure.
                     </p>
                   </div>
                 </div>
@@ -46,10 +40,9 @@ function ChooseUs() {
                   {" "}
                   <img src={Box2} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>All Inclusive Pricing</h4>
+                    <h4>Less Noise</h4>
                     <p>
-                      Get everything you need in one convenient, transparent
-                      price with our all-inclusive pricing policy.
+                    Cruise around the Algarve quietly without disturbing the peace. Sur Ron's electric power makes your journey in tune with the beauty around you.
                     </p>
                   </div>
                 </div>
@@ -57,10 +50,9 @@ function ChooseUs() {
                   {" "}
                   <img src={Box3} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>No Hidden Charges</h4>
+                    <h4>Eco-Adventure</h4>
                     <p>
-                      Enjoy peace of mind with our no hidden charges policy. We
-                      believe in transparent and honest pricing.
+                    Sur Ron represents a commitment to a greener planet. Experience the beauty of the Algarve while leaving a minimal footprint.
                     </p>
                   </div>
                 </div>

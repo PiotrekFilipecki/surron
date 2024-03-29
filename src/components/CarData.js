@@ -8,11 +8,11 @@ import Passat from "../images/cars-big/passatcc.jpg";
 export const CAR_DATA = [
   [
     {
-      name: "VW Golf 6",
+      name: "Ultra Bee",
       price: "37",
       img: Golf6,
-      model: "Golf 6",
-      mark: "Volkswagen",
+      model: "Ultra Bee",
+      mark: "Sur-Ron",
       year: "2008",
       doors: "4/5",
       air: "Yes",
@@ -22,11 +22,11 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "Audi A1 S-Line",
+      name: "Ultra Bee",
       price: "45",
       img: AudiA1,
-      model: "Audi",
-      mark: "A1",
+      model: "Sur-Ron Ultra Bee",
+      mark: "Ultra Bee",
       year: "2012",
       doors: "4/5",
       air: "Yes",
@@ -36,11 +36,11 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "Toyota Camry",
+      name: "Light Bee",
       price: "30",
       img: Toyota,
-      model: "Camry",
-      mark: "Toyota",
+      model: "Light Bee",
+      mark: "Sur-Ron",
       year: "2006",
       doors: "4/5",
       air: "Yes",
@@ -50,11 +50,11 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "BMW 320 ModernLine",
+      name: "Light Bee",
       price: "35",
       img: Bmw320,
-      model: "320",
-      mark: "BMW",
+      model: "Light Bee",
+      mark: "Sur-Ron",
       year: "2012",
       doors: "4/5",
       air: "Yes",

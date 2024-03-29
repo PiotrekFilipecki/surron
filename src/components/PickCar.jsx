@@ -20,11 +20,11 @@ function PickCar() {
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
+              <h3>Surron Models</h3>
               <h2>Our rental fleet</h2>
               <p>
                 Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+                next adventure.
               </p>
             </div>
             <div className="pick-container__car-content">
@@ -37,7 +37,7 @@ function PickCar() {
                     btnID("btn1");
                   }}
                 >
-                  Audi A1 S-Line
+                  Sur-Ron Ultra Bee
                 </button>
                 <button
                   className={`${coloringButton("btn2")}`}
@@ -47,7 +47,7 @@ function PickCar() {
                     btnID("btn2");
                   }}
                 >
-                  VW Golf 6
+                  Sur-Ron Ultra Bee 2
                 </button>
                 <button
                   className={`${coloringButton("btn3")}`}
@@ -57,7 +57,7 @@ function PickCar() {
                     btnID("btn3");
                   }}
                 >
-                  Toyota Camry
+                  Sur-Ron Light Bee
                 </button>
                 <button
                   className={`${coloringButton("btn4")}`}
@@ -67,9 +67,9 @@ function PickCar() {
                     btnID("btn4");
                   }}
                 >
-                  BMW 320 ModernLine
+                  Sur-Ron Light Bee
                 </button>
-                <button
+                {/* <button
                   className={`${coloringButton("btn5")}`}
                   id="btn5"
                   onClick={() => {
@@ -88,7 +88,7 @@ function PickCar() {
                   }}
                 >
                   VW Passat CC
-                </button>
+                </button> */}
               </div>
 
               {active === "FirstCar" && <CarBox data={CAR_DATA} carID={0} />}
